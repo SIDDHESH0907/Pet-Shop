@@ -1,0 +1,12 @@
+.cardlist-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.cardlist {
+  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}

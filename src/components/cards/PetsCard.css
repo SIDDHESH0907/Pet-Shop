@@ -1,0 +1,41 @@
+.card-container {
+  height: 290px;
+  width: 220px;
+  border: 2px solid var(--orange);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.card-image {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-image-img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-details {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-breed {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-price {
+  font-size: 14px;
+  font-weight: 600;
+}
