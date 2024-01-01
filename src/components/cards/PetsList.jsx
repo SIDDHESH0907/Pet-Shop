@@ -32,27 +32,27 @@ function PetsList() {
 
         <div className="select-category-main">
           <img className="select-category-img" src="./bird-category.jpg" alt="" />
-        <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets")}>All</button>
+          <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets")}>All</button>
         </div>
 
         <div className="select-category-main">
-        <img className="select-category-img" src="./cat-category.jpg" alt="" />
-        <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets?type=Cat")}>Cat</button>
+          <img className="select-category-img" src="./cat-category.jpg" alt="" />
+          <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets?type=Cat")}>Cat</button>
         </div>
 
         <div className="select-category-main">
-        <img className="select-category-img" src="./dog-category.jpg" alt="" />
-        <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets?type=Dog")}>Dog</button>
+          <img className="select-category-img" src="./dog-category.jpg" alt="" />
+          <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets?type=Dog")}>Dog</button>
         </div>
 
         <div className="select-category-main">
-        <img className="select-category-img" src="./bird-category.jpg" alt="" />
-        <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets?type=Bird")}>Bird</button>
+          <img className="select-category-img" src="./bird-category.jpg" alt="" />
+          <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets?type=Bird")}>Bird</button>
         </div>
 
         <div className="select-category-main">
-        <img className="select-category-img" src="./fish-category.jpg" alt="" />
-        <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets?type=Fish")}>Fish</button>
+          <img className="select-category-img" src="./fish-category.jpg" alt="" />
+          <button className="select-category-btn" onClick={() => setUrl("http://localhost:3000/pets?type=Fish")}>Fish</button>
         </div>
 
 
