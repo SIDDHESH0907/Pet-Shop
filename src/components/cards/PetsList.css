@@ -10,3 +10,23 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
+.select-category{
+  display: flex;
+  justify-content: space-around;
+}
+
+.select-category-main{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.select-category-img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--orange);
+}
