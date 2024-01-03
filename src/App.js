@@ -1,13 +1,13 @@
-import PetsList from "./components/cards/PetsList";
 import Navbar from "./components/common/Navbar";
-import AboutUs from "./components/pages/AboutUs";
+import Footer from "./components/common/Footer";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* <PetsList/> */}
-      <AboutUs/>
+      <Outlet />
+      <Footer />
     </>
   );
 }

@@ -71,6 +71,15 @@
       "age": 10,
       "price": 75679,
       "image": "http://dummyimage.com/200x200.png/dddddd/000000"
+    },
+    {
+      "pet_name": "Oggy",
+      "type": "cat",
+      "breed": "Chartreux",
+      "age": "5",
+      "price": "100000",
+      "image": "C:\\fakepath\\anyrgb.com.png",
+      "id": 9
     }
   ]
 }

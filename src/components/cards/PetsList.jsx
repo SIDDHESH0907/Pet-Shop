@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import PetsCard from "./PetsCard";
-// import useFetchApi from "./hooks/useFetchApi";
 import "./PetsList.css";
 import useFetchApi from "../hooks/useFetchApi.jsx";
 
